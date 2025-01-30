@@ -1,0 +1,582 @@
+            html {
+				margin: 0;
+				padding: 0;
+				overflow-x: hidden;
+			}
+			.row{
+				margin-left: 0%;
+				margin-right: 0%;
+			}
+			.logo{
+				border-radius: 50%;
+			  width: 52px;
+			  position: relative;
+			  top: -73%;
+			}
+  
+            .navbar{
+      
+				position: sticky;
+				top: 0%;
+				z-index: 2;
+            }
+			ul{
+            
+				font-size: 20px;
+			}
+			.footer {
+  
+			  color:whitesmoke;
+			  padding: 20px 0;
+			  font-family: Arial, sans-serif;
+			  background-color: #1b1a1b;
+			  
+			}
+
+			.footer-container {
+			  display: flex;
+			  flex-wrap: wrap;
+			  justify-content: space-between;
+			  max-width: 1200px;
+			  margin: 0 auto;
+			  padding: 0 20px;
+			}
+
+			.footer-section {
+			  flex: 1;
+			  min-width: 200px;
+			  margin: 10px;
+			}
+			.footerlogo{
+				border-radius:50%;
+				width:50%;
+			}
+
+			.footer-section h2 {
+			  font-size: 18px;
+			  margin-bottom: 10px;
+			}
+
+			.footer-section p,
+			.footer-section ul {
+			  font-size: 14px;
+			  line-height: 1.6;
+			}
+
+			.footer-section ul {
+			  list-style: none;
+			  padding: 0;
+			}
+
+			.footer-section ul li {
+			  margin-bottom: 5px;
+			}
+
+			.footer-section ul li a {
+			  text-decoration: none;
+			  color: #333;
+			}
+
+			.footer-section ul li a:hover {
+			  text-decoration: underline;
+			}
+
+			.footer-bottom {
+			  text-align: center;
+			  padding: 10px 0;
+			  border-top: 1px solid #ddd;
+			  margin-top: 20px;
+			}
+
+			.footer-bottom p {
+			  margin: 0;
+			  font-size: 14px;
+			}
+
+			.footer-bottom a {
+			  text-decoration: none;
+			  color: #333;
+			}
+
+			.footer-bottom a:hover {
+			  text-decoration: underline;
+			}
+
+			.h2f{
+				color: #ffc40c;
+			}
+
+			.icons{
+				font-size: 23px;
+				transition:  0.5s;
+				color: azure;
+				color:white;
+				padding:11px;
+
+			}  
+			.icons:hover{
+			  color: azure;
+			  font-size: 28px;
+			}  
+			.icons-row{
+			  display: block;
+			}    
+			.drop-btn:hover{
+			  background-color: #1b1a1b;
+			  color: #ddd;
+			}  
+			.devteam{
+			  text-align: center;
+			}
+			.nav-item{
+			  text-align: center;
+			}
+			.lahari{				
+				display: none;
+			}
+			@media screen and (max-width: 575px) {
+                .lahari{
+					display: block;
+                }
+             }
+			
+			.myimage{
+				width:100%;
+				height:auto;
+				
+			}
+			.img2{
+				padding-left:0px;
+				padding-right: 0px;;
+
+			}
+			.myhead{
+				padding-top:50px;	
+				text-align:center;
+				font-size:38px;
+			}
+			@media (max-width: 425px){
+				.myhead{
+					padding-top:50px;	
+					text-align:center;
+					font-size:35px;
+				}
+			}
+			.card {
+			  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+			  transition: 0.3s;
+			}
+			.card:hover {
+			  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+			}
+			.mytext {
+				font-size: 20px;
+				text-align:justify;
+				padding-top:20px;
+			}
+			
+	/* index */
+			.contpad{
+            padding-top: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+         
+           }
+           
+           
+           .inspire{
+				text-align: center;
+				background-color:#fae3f9;
+				font-size:18px;
+           }
+          
+      .inspired_card{
+        padding-top: 20px;
+      
+      }
+      .mission-cont{
+        text-align: center;
+        background-color:#f0e7c0 ;
+        border-radius: 3%
+      }
+      .half-text{
+      
+        background-color:#1c352d;
+        color: #FAF0DC;
+        margin-top: 10px;
+        font-variant: small-caps;
+        text-align: center;
+      }
+        .lahari1{
+          border-radius: 3%;
+		  background-color:  #acceac;
+        }    
+        .mybtn{
+          
+        background-color: #ff7f00;
+         padding: 50px 0px opx 60px;
+          margin-top: 25%;
+           margin-left: 6%;
+           
+        }
+		.myclass{
+			text-align:center;
+			padding-top:20px;
+		}
+		.myclass1{
+			text-align:center;
+			font-size:18px;
+		}
+		.inspired_cf{
+			background-color:  #c6e0ea;
+		}
+		.inspired_head{
+			text-align:center;
+			padding-top:20px;
+		}
+		.myclass2{
+			padding-top: 150px; 
+			font-size: 47px; 
+			text-align: center;
+		}
+		.myclass3{
+			font-size: 25px; 
+			padding: 40px 40px 0px 40px
+		}
+		
+		.index_padding{
+			padding-top:10px;
+		}
+		@media screen and (max-width:475px){
+			.index_space{
+				padding-left:0px;
+				padding-right:0px;
+			}
+		}
+			
+/* about us*/
+			.about_heading{
+				font-weight:bold;
+				font-size:30px;
+				padding-top:40px;
+				text-align:center;
+			}
+/*history*/
+/*aims & objectives*/
+			.aims_heading{
+				font-size:50px;
+				color:#FA8B0E;
+			}
+			.aim_para{
+				text-align:center;
+				font-size:30px
+			}
+/* awards */
+			.awards_text1{
+				padding-top:20px;
+				font-size:20px;
+				text-align:justify;
+			}
+			.awards_text1:hover{
+				padding-top:200px;
+				font-size:20px;
+				text-align:justify;
+				background-color:#FDBF6C;
+			}
+/* volunteers */
+/*service*/
+			.service_img{
+				width:100%;
+				height:100%;
+				padding-top:20px;
+			}
+			.services_text{
+				padding-top:20px;
+				font-size:20px;
+				text-align:justify;
+			}
+			.services_text:hover{
+				padding-top:20px;
+				font-size:20px;
+				text-align:justify;
+				background-color: #FFEE83;
+				border-style:solid;
+				border-width: 3px;
+				border-color:#FFE01D;
+			}
+			.row_shadows{
+				box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+				transition: 0.3s;
+			}
+/*home nursing*/
+			.service_img{
+				width:100%;
+				height:100%;
+				padding-top:20px;
+			}
+			.hn_text{
+				padding-top:20px;
+				font-size:20px;
+				text-align:justify;
+			}
+			.hn_text:hover{
+				padding-top:20px;
+				font-size:20px;
+				text-align:justify;
+				background-color: #FFEE83;
+				border-style:solid;
+				border-width: 3px;
+				border-color:#FFE01D;
+			}
+			.row_shadows{
+				box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+				transition: 0.3s;
+			}
+/*hygienic food*/
+			.food_text1{
+				padding-top:20px;
+				font-size:20px;
+				text-align:justify;
+			}
+			.food_text1:hover{
+				padding-top:120px;
+				font-size:20px;
+				text-align:justify;
+				background-color:#B6DBF9;
+			}
+			@media screen and (min-width:475px){
+				.food_space{
+					padding-right:10px;
+					padding-left:10px;
+				}
+			}
+/* facilities*/
+			.facilities_text1{
+				padding-top:120px;
+				font-size:20px;
+				text-align:center;
+			}
+/*accommodation*/
+			.accommodation_text1{
+				padding-top:20px;
+				font-size:20px;
+				text-align:justify;
+			}
+			.accommodation_text1:hover{
+				padding-top:150px;
+				font-size:20px;
+				text-align:justify;
+				background-color:#B6DBF9;
+			}
+/* gallery */
+			.gallery_space {
+				padding-top: 10px;
+			}
+/* sponsors */
+			.sponsor1{
+				width:100%;
+				height:100%;
+				padding-left:50px;
+			}
+			.sponsor_gallery {
+			  margin: 5px;
+			  border: 1px solid #ccc;
+			  float: center;
+			  width: 180px;
+			}
+
+			.sponsor_gallery:hover {
+			  border: 1px solid #777;
+			}
+
+			.sponsor_gallery img {
+			  width: 100%;
+			  height: auto;
+			}
+
+			.sponsor_desc {
+			  padding: 15px;
+			  text-align: center;
+			}
+/* events*/
+/* media */
+			.media_button{
+				text-align:center;
+				padding-top:20px;	
+			}
+			.media_button_text{
+				font-size:30px;
+			}
+			.media_icons{
+				padding-left:20%;
+			}
+			.social{
+			  font-size: 23px;
+			  transition:  0.5s;
+			  padding:11px;
+			}   
+			.social:hover{
+			  color: azure;
+			  font-size: 28px;
+			}
+/* faq's */
+			.myimage{
+				width:100%;
+				height:auto;
+				
+			}
+			.img2{
+				padding-left:0px;
+				padding-right: 0px;;
+
+			}
+			.myhead{
+				padding-top:50px;	
+				text-align:center;
+				font-size:38px;
+			}
+			@media (max-width: 425px){
+				.myhead{
+					padding-top:50px;	
+					text-align:center;
+					font-size:35px;
+				}
+			}
+			
+			.mytext {
+				font-size: 20px;
+				text-align:justify;
+				padding-top:20px;
+			}
+			.faq_symbol{
+				padding-top:10px;
+				padding-left:20px;
+				font-size:15px;
+				
+			}
+			.faq_rows{
+				background-color:#CEE6F9;
+				margin-top:30px;
+			}
+			.modal {
+			  display: none; 
+			  position: fixed; 
+			  z-index: 1; 
+			  padding-top: 100px; 
+			  left: 0;
+			  top: 0;
+			  width: 100%; 
+			  height: 100%; 
+			  overflow: auto; 
+			  background-color: rgb(0,0,0); 
+			  background-color: rgba(0,0,0,0.4); 
+			}
+			.modal-content {
+			  background-color: #fefefe;
+			  margin: auto;
+			  padding: 20px;
+			  border: 1px solid #888;
+			  width: 80%;
+			}
+			.close {
+			  color: #aaaaaa;
+			  text-align:right;
+			  font-size: 28px;
+			  font-weight: bold;
+			 
+			}
+
+			.close:hover,
+			.close:focus {
+			  color: #000;
+			  text-decoration: none;
+			  cursor: pointer;
+			}
+			
+			.faq_icons{
+				padding-left:20%;
+			}
+			.faq_head{
+				padding-top:50px;	
+				text-align:center;
+				font-size:38px;
+			}
+
+			.img2{
+				padding-left:0px;
+				padding-right:0px;
+			}
+			.social{
+			  font-size: 23px;
+			  transition:  0.5s;
+			  padding:11px;
+			}   
+			.social:hover{
+			  color: azure;
+			  font-size: 28px;
+			}
+/* management */
+			.mgmt_background{
+				height:100%;
+				background-color:#C9E0F7;
+			}
+			@media screen and (max-width: 768px){
+				.mgmt_background{
+					height:100%;
+					background-color:#C9E0F7;
+					padding-top:0px;
+				}
+			}
+			.mgmt_image{
+				width:100%;
+				height:100%;
+				padding-top:55px;
+			}
+			@media screen and (max-width: 768px){
+				.mgmt_image{
+					width:100%;
+					height:100%;
+					padding-top:50px;
+				}
+			}
+			.mgmt_head{
+				text-align:center;
+				padding-top:200px;
+			}
+			@media screen and (max-width: 768px){
+				.mgmt_head{
+					text-align:center;
+					padding-top:0px;
+				}
+			}
+			.mgmt_quotes{
+				text-align:center;
+				font-style:italic;
+				font-size:20px;
+				font-weight:bold;
+			}
+			
+			.members_images{
+				border-radius:50%; 
+				width:200px;
+			}
+			.members_names{
+				padding-top:60px; 
+				padding-left:0px;
+			}
+			.founder_image{
+				width:100%;
+				height:100%;
+				
+			}
+			
+/*donate us*/
+			.donate_space{
+				text-align:center;
+			}
+/* contact us*/
+			.contact_photos{
+				border-radius:50%;
+				width:50%;
+			}
+			
